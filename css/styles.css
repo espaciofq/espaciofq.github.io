@@ -1,0 +1,321 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+img {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.back{
+  position: relative;
+  height: 1040px;
+  overflow: hidden;
+  width: 100%;
+}
+.background {
+  height: calc(100vh + 120px);
+  background:  url("../assets/img/background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  margin-top: -60px;
+}
+.back img{
+  position: absolute;
+  object-fit: cover;
+  height: 1100px;
+  width: 100%;
+  top: -60px;
+}
+.contain{
+  width: 500px;
+  height: calc(100vh + 120px);
+  margin-left: calc(50% - 250px);
+  position: absolute;
+  top: -58px;
+}
+.topcontain{
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.homeTitle{
+  width: 500px;
+  top: 370px;
+  position: relative;
+}
+.homeText{
+  top: 0px;
+  position: absolute;
+  left: 0px;
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.button{
+  position: absolute;
+  /*background-color: #ff00004a;*/
+  height: 90px;
+  width: 90px;
+}
+.button2{
+  position: absolute;
+  /*background-color: #ff00004a;*/
+  height: 280px;
+  width: 510px;
+  top: 430px;
+}
+.fq{
+  top: 110px;
+  left: 209px;
+}
+.acerca{
+  top: 110px;
+  left: 49px;
+}
+.ediciones{
+  top: 110px;
+  left: 362px;
+}
+.virtual{
+  top: 818px;
+  
+  left: 284px;
+}
+.virtual2{
+  top: 273px;
+  left: 204px;
+}
+.live{
+  top: 818px;
+  left: 127px;
+}
+.enterArena{
+  top: 270px;
+  left: 47px;
+  
+}
+.youtube{
+  top: 270px;
+  left: 362px;
+}
+.lecture{
+  top: 740px;
+  left: 60px;
+  width: 377px
+}
+.discussion{
+  top: 898px;
+  left: 60px;
+  width: 377px
+}
+.becas{
+  top: 582px;
+  left: 366px;
+}
+.entrar{
+  top: 900px;
+  left: 205px;
+}
+.recomendaciones{
+  top: 900px;
+  left: 362px;
+  }
+.peguntas{
+  top: 900px;
+  left: 47px;
+  }
+.documental{
+  top: 662px;
+  left: 285px;
+}
+.arena{
+  top: 662px;
+  left: 127px;
+}
+.proxima{
+  top: 582px;
+  left: 48px;
+}
+
+.enter{
+  top: 912px;
+  left: 205px;
+}
+.fondacion{
+  top: 912px;
+  left: 205px;
+}
+@media screen and (max-width: 640px){
+  .fondacion{
+    top: 692px;
+    left: 155px;
+  }
+  .button2{
+    position: absolute;
+    /*background-color: #ff00004a;*/
+    height: 190px;
+    width: 370px;
+    top: 330px;
+}
+  .acerca{
+    top: 85px;
+    left: 34px;
+  }
+  .becas{
+    top: 440px;
+    left: 271px;
+  }
+  .entrar{
+    top: 678px;
+    left: 153px;
+  }
+  .recomendaciones{
+    top: 678px;
+    left: 34px;
+  }
+  .peguntas{
+    top: 678px;
+    left: 271px;
+  }
+  .documental{
+    top: 500px;
+    left: 212px;
+  }
+  .arena{
+    top: 500px;
+    left: 94px;
+  }
+  .proxima{
+    top: 440px;
+    left: 35px;
+  }
+  .button{
+    height: 70px;
+    width: 70px;
+  }
+  .enterArena{
+    top: 203px;
+    left: 35px;
+  }
+  .youtube{
+    top: 203px;
+    left: 271px;
+    
+  }
+  .lecture{
+    top: 556px;
+    left: 45px;
+    width: 280px;
+  }
+  .discussion{
+    top: 673px;
+    left: 45px;
+    width: 280px;
+  }
+  .fq{
+    top: 85px;
+    left: 152px;
+  }
+  .About{
+    top: 85px;
+    left: 36px;
+  }
+  .ediciones{
+    top: 85px;
+    left: 271px;
+  }
+  .virtual{
+    top: 618px;
+    left: 213px;
+  }
+   .virtual2{
+    top: 208px;
+    left: 153px;
+  }
+  .live{
+    top: 618px;
+    left: 94px;
+  }
+  .background{
+    margin-top: -60px;
+    height: 830px;
+  }
+  .back{
+    height: 770px;
+    width: 100%; 
+  }
+  .contain{
+    top: -60px;
+    margin-left: calc(50% - 188px);
+    width: 377px;
+    height: 830px;
+  }
+  .topcontain{
+    height: 770px;
+  }
+  .back img{
+    top: -60px;
+    height: 830px;
+  }
+  .homeTitle{
+  width: 375px;
+  top: 290px;
+  position: relative;
+  }
+}
